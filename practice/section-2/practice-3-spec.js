@@ -25,9 +25,9 @@ describe('practice-2-3', () => {
       {name: 'h', summary: 11},
       {name: 't', summary: 19},
       {name: 'f', summary: 9},
-      {name: 'c', summary: 8},
       {name: 'g', summary: 7},
-      {name: 'b', summary: 6},
+      {name: 'b', summary: 6},  
+      {name: 'c', summary: 8},
       {name: 'd', summary: 5}
     ]);
   });
