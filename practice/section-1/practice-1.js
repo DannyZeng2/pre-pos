@@ -1,5 +1,13 @@
 'use strict';
 
 function collectSameElements(collectionA, collectionB) {
-  return '实现练习要求，并改写该行代码。';
-}
+  const collectionC = [];
+  for(let valA of collectionA){
+    for(let valB of collectionB){
+      if(valA == valB) {
+        collectionC.push(valA);
+      }
+    }
+  }
+  return collectionC;
+} 
